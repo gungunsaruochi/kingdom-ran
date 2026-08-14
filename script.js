@@ -717,10 +717,10 @@ function createFormationHTML(team) {
           <div class="formation-member">
 
             ${
-              member.image
+              member.formationImage || member.image
                 ? `
                   <img
-                    src="${member.image}"
+                    src="${member.formationImage || member.image}"
                     alt="${member.name}"
                     class="formation-member-image"
                   >
