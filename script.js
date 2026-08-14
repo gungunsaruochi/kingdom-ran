@@ -713,11 +713,17 @@ function openCharacterModal(character) {
 
   <section class="detail-section">
 
-  <h3>
-    おすすめ編成
-  </h3>
+  <h3>おすすめ編成</h3>
 
-  ${formationsHTML}
+  <div class="formation-category">
+    <h4>⚔️ 侵攻</h4>
+    ${formationsHTML}
+  </div>
+
+  <div class="formation-category">
+    <h4>🛡️ 駐屯</h4>
+    <p class="empty-text">未入力</p>
+  </div>
 
 </section>
   `;
