@@ -286,10 +286,12 @@ body {
 }
 
 .detail-link {
-  margin-top: 12px;
-  color: #5b2791;
-  font-weight: 700;
-  font-size: 14px;
+    display: block;
+    margin-top: 12px;
+    padding: 12px 0 20px;
+    color: #5b2791;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 
