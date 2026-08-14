@@ -26,7 +26,7 @@ const characters = [
     `,
     lastRevival: "",
     formations: [],
-    image: ""
+    image: "S__70819885.jpg"
   },
 
   {
