@@ -326,7 +326,8 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: "S__70819902_0.jpg"
+    image: "S__70819902_0.jpg",
+    formationImage: "gakuki.jp.jpg"
   },
 
   {
@@ -514,7 +515,8 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: "S__70819904_0.jpg"
+    image: "S__70819904_0.jpg",
+    formationImage: "kanjo.jp.jpg"
   },
 
   {
@@ -529,7 +531,8 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: "S__70819905_0.jpg"
+    image: "S__70819905_0.jpg",
+    formationImage:"shotaku.jp.jpg"
   }
 
 ];
