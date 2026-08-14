@@ -564,3 +564,56 @@ body {
   }
 
 }
+.formation-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  width: 100%;
+}
+
+.formation-member {
+  min-width: 0;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 8px;
+  background: #f6f3f8;
+}
+
+.formation-member-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.formation-member-placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e7e2eb;
+  color: #888;
+  font-size: 11px;
+}
+
+.formation-member-name {
+  padding: 6px 2px;
+  font-size: 12px;
+  font-weight: 700;
+  word-break: break-all;
+}
+
+@media (max-width: 650px) {
+  .formation-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 5px;
+  }
+
+  .formation-member-name {
+    font-size: 10px;
+    padding: 5px 1px;
+  }
+}
