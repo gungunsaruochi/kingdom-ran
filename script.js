@@ -10,7 +10,8 @@ const characters = [
 駐屯時には、敵騎兵武将の攻撃力とクリティカルダメージを20%低下させ、味方兵器の攻撃力と防御力が50%上昇し、城門の体力残存時、城門の体力を50000回復する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -25,7 +26,8 @@ const characters = [
 自身に100%のガード効果(2回)を付与する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: "S__70819885.jpg"
   },
 
@@ -40,7 +42,8 @@ const characters = [
 敵盾兵武将のクリティカルダメージを30%低下させる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -56,7 +59,8 @@ const characters = [
 敵韓国武将が生存している場合、敵全武将の体力回復量を20%低下させる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -72,7 +76,8 @@ const characters = [
 敵弓兵武将が生存している場合、自身と味方秦の六大将軍武将の「錯乱」「裏切り」状態になる確率が100%低下する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -88,7 +93,8 @@ const characters = [
 敵弓兵武将のクリティカルダメージを30%低下させる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -102,7 +108,8 @@ const characters = [
 味方廉頗軍武将の「裏切り」状態になる確率が60%低下する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -117,7 +124,8 @@ const characters = [
 駐屯時には、敵騎兵武将の攻撃力を40%低下させる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -131,7 +139,8 @@ const characters = [
 自身以外の味方廉頗軍武将が生存している場合、味方全武将に60%のガード効果(2回)を付与する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -145,7 +154,8 @@ const characters = [
 味方「廉頗」が生存している場合、味方武将の体力を20%回復する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -159,7 +169,8 @@ const characters = [
 敵秦国武将か山の民武将が生存している場合、自身の体力を20%回復する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: "S__70819891.jpg"
   },
 
@@ -173,7 +184,8 @@ const characters = [
 味方「廉頗」が生存している場合、味方全武将の士気消費を30%軽減する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -187,7 +199,8 @@ const characters = [
 敵に秦国武将がいる場合、味方趙国武将の「恐怖」状態になる確率が100%低下し、敵全武将の防御力と回避率を30%低下させ、自身の攻撃力が40%上昇する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: "S__70819890.jpg"
   },
 
@@ -202,7 +215,8 @@ const characters = [
 敵盾兵武将が生存している場合、味方弓兵武将に60%のガード効果(3回)を付与する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -217,7 +231,8 @@ const characters = [
 自身が「見切り(25%)」状態になる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -230,7 +245,8 @@ const characters = [
 自身の命中率と回避率が20%上昇する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -246,7 +262,8 @@ const characters = [
 敵全武将のクリティカル発生率を40%低下させる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -261,7 +278,8 @@ const characters = [
 自身以外の味方楚国武将が生存している場合、敵全武将の防御力を30%低下させる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -276,7 +294,8 @@ const characters = [
 味方楚国武将の攻撃力低下耐性が60%上昇する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -291,7 +310,8 @@ const characters = [
 駐屯時には、敵騎兵武将の攻撃力を20%低下させ、クリティカルダメージを40%低下させる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -304,7 +324,8 @@ const characters = [
 味方秦国、趙国、魏国、楚国、韓国、燕国武将の防御力が30%上昇する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -320,7 +341,8 @@ const characters = [
 駐屯時には、敵騎兵武将が生存している場合、自身の体力を20%回復する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -335,7 +357,8 @@ const characters = [
 侵攻時には、味方山の民武将の「裏切り」「恐怖」状態になる確率が60%低下し、攻撃力が30%上昇する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -350,7 +373,8 @@ const characters = [
 敵武将が生存している場合、生存している味方楚国武将の士気を20%回復する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -367,7 +391,8 @@ const characters = [
 生存している味方「呉鳳明」、「乱美迫」、魏火龍武将の士気を10%回復する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -382,7 +407,8 @@ const characters = [
 侵攻時には、敵盾兵武将の攻撃力を20%低下させる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -396,7 +422,8 @@ const characters = [
 駐屯時には、敵騎兵武将の攻撃力とクリティカルダメージを30%低下させる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -411,7 +438,8 @@ const characters = [
 侵攻時には、敵騎兵武将の攻撃力を20%低下させる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -429,7 +457,8 @@ const characters = [
 自身が「見切り(40%)」状態になる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -445,7 +474,8 @@ const characters = [
 自身以外の味方玉鳳隊武将が生存している場合、敵武将の攻撃力を40%低下させる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -460,7 +490,8 @@ const characters = [
 駐屯時には、味方魏国武将の防御力貫通耐性が30%上昇し、敵騎兵武将のクリティカル発生率を40%低下させる。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -474,7 +505,8 @@ const characters = [
 生存している味方玉鳳隊武将の体力回復量が30%上昇して体力を30%回復する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   },
 
@@ -488,7 +520,8 @@ const characters = [
 味方「王賁」、王翦軍武将の「錯乱」状態になる確率が50%低下する。
     `,
     lastRevival: "",
-    formations: [],
+    attackTeam: [],
+    defenseTeam: [],
     image: ""
   }
 
@@ -558,7 +591,8 @@ function renderCharacters() {
       ${character.country}
       ${character.skill}
       ${character.description}
-      ${character.formations.join(" ")}
+      ${character.attackTeam.join(" ")}
+      ${character.defenseTeam.join(" ")}
     `.toLowerCase();
 
     const keywordMatch = searchableText.includes(keyword);
@@ -637,15 +671,15 @@ function renderCharacters() {
 }
 
 function openCharacterModal(character) {
-  const formationsHTML =
-    character.formations.length > 0
+  const attackTeamHTML =
+    character.attackTeam.length > 0
       ? `
         <div class="formation-list">
-          ${character.formations
+          ${character.attackTeam
             .map(
-              formation => `
+              member => `
                 <div class="formation-item">
-                  ${formation}
+                  ${member}
                 </div>
               `
             )
@@ -654,7 +688,28 @@ function openCharacterModal(character) {
       `
       : `
         <p class="empty-text">
-          おすすめ編成はまだ登録されていません。
+          未入力
+        </p>
+      `;
+
+  const defenseTeamHTML =
+    character.defenseTeam.length > 0
+      ? `
+        <div class="formation-list">
+          ${character.defenseTeam
+            .map(
+              member => `
+                <div class="formation-item">
+                  ${member}
+                </div>
+              `
+            )
+            .join("")}
+        </div>
+      `
+      : `
+        <p class="empty-text">
+          未入力
         </p>
       `;
 
@@ -711,21 +766,21 @@ function openCharacterModal(character) {
 
     </section>
 
-  <section class="detail-section">
+    <section class="detail-section">
 
-  <h3>おすすめ編成</h3>
+      <h3>おすすめ編成</h3>
 
-  <div class="formation-category">
-    <h4>⚔️ 侵攻</h4>
-    ${formationsHTML}
-  </div>
+      <div class="formation-category">
+        <h4>⚔️ 侵攻</h4>
+        ${attackTeamHTML}
+      </div>
 
-  <div class="formation-category">
-    <h4>🛡️ 駐屯</h4>
-    <p class="empty-text">未入力</p>
-  </div>
+      <div class="formation-category">
+        <h4>🛡️ 駐屯</h4>
+        ${defenseTeamHTML}
+      </div>
 
-</section>
+    </section>
   `;
 
   modal.classList.add("show");
