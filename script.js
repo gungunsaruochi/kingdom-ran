@@ -96,7 +96,8 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "",
+    formationImage:""
   },
 
   {
