@@ -675,50 +675,81 @@ function renderCharacters() {
     characterList.appendChild(card);
   });
 }
+function createFormationHTML(team) {
+
+  if (!team || team.length === 0) {
+    return `
+      <p class="empty-text">
+        未入力
+      </p>
+    `;
+  }
+
+  return `
+    <div class="formation-grid">
+
+      ${team.map(memberName => {
+
+        const member =
+          characters.find(
+            character =>
+              character.name === memberName
+          );
+
+        if (!member) {
+          return `
+            <div class="formation-member">
+
+              <div class="formation-member-placeholder">
+                画像なし
+              </div>
+
+              <div class="formation-member-name">
+                ${memberName}
+              </div>
+
+            </div>
+          `;
+        }
+
+        return `
+          <div class="formation-member">
+
+            ${
+              member.image
+                ? `
+                  <img
+                    src="${member.image}"
+                    alt="${member.name}"
+                    class="formation-member-image"
+                  >
+                `
+                : `
+                  <div class="formation-member-placeholder">
+                    画像なし
+                  </div>
+                `
+            }
+
+            <div class="formation-member-name">
+              ${member.name}
+            </div>
+
+          </div>
+        `;
+
+      }).join("")}
+
+    </div>
+  `;
+}
 
 function openCharacterModal(character) {
   const attackTeamHTML =
-    character.attackTeam.length > 0
-      ? `
-        <div class="formation-list">
-          ${character.attackTeam
-            .map(
-              member => `
-                <div class="formation-item">
-                  ${member}
-                </div>
-              `
-            )
-            .join("")}
-        </div>
-      `
-      : `
-        <p class="empty-text">
-          未入力
-        </p>
-      `;
+  createFormationHTML(character.attackTeam);
 
-  const defenseTeamHTML =
-    character.defenseTeam.length > 0
-      ? `
-        <div class="formation-list">
-          ${character.defenseTeam
-            .map(
-              member => `
-                <div class="formation-item">
-                  ${member}
-                </div>
-              `
-            )
-            .join("")}
-        </div>
-      `
-      : `
-        <p class="empty-text">
-          未入力
-        </p>
-      `;
-
+const defenseTeamHTML =
+  createFormationHTML(character.defenseTeam);
   const revivalHTML = character.lastRevival
     ? `
       <div class="revival-date">
