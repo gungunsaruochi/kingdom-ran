@@ -424,8 +424,14 @@ const characters = [
 駐屯時には、敵騎兵武将の攻撃力とクリティカルダメージを30%低下させる。
     `,
     lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
+    attackTeam: ["王賁",
+    "松琢",
+    "関常",
+    "宮康"],
+    defenseTeam: ["王賁",
+    "松琢",
+    "関常",
+    "宮康"],
     image: "",
     formationImage: "kyuko.jp.jpg"
   },
@@ -520,7 +526,10 @@ const characters = [
     "松琢",
     "関常",
     "楽毅"],
-    defenseTeam: [],
+    defenseTeam: ["王賁",
+    "松琢",
+    "関常",
+    "宮康"],
     image: "S__70819904_0.jpg",
     formationImage: "kanjo.jp.jpg"
   },
@@ -539,7 +548,10 @@ const characters = [
     "松琢",
     "関常",
     "楽毅"],
-    defenseTeam: [],
+    defenseTeam: ["王賁",
+    "松琢",
+    "関常",
+    "宮康"],
     image: "S__70819905_0.jpg",
     formationImage:"shotaku.jp.jpg"
   }
