@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>キングダム乱 武将データベース</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="eyebrow">KINGDOM RAN DATABASE</p>
+      <h1>キングダム乱 武将データベース</h1>
+      <p class="header-description">
+        ★6追想武将のスキル・復刻情報・おすすめ編成をまとめています
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="search-panel">
+
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="武将名・スキル名・効果を検索"
+        >
+      </div>
+
+
+      <div class="filter-area">
+
+        <p class="filter-title">国で絞り込み</p>
+
+        <div class="country-buttons">
+
+          <button class="country-btn active" data-country="all">
+            すべて
+          </button>
+
+          <button class="country-btn" data-country="秦">
+            秦
+          </button>
+
+          <button class="country-btn" data-country="趙">
+            趙
+          </button>
+
+          <button class="country-btn" data-country="魏">
+            魏
+          </button>
+
+          <button class="country-btn" data-country="楚">
+            楚
+          </button>
+
+          <button class="country-btn" data-country="韓">
+            韓
+          </button>
+
+          <button class="country-btn" data-country="燕">
+            燕
+          </button>
+
+          <button class="country-btn" data-country="山の民">
+            山の民
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="result-header">
+
+      <p id="resultCount">
+        0件の武将
+      </p>
+
+    </section>
+
+
+    <section
+      id="characterList"
+      class="character-grid"
+    >
+    </section>
+
+  </main>
+
+
+  <!-- 武将詳細 -->
+  <div
+    id="characterModal"
+    class="modal"
+  >
+
+    <div class="modal-overlay"></div>
+
+
+    <div class="modal-card">
+
+      <button
+        id="closeModal"
+        class="close-button"
+        aria-label="閉じる"
+      >
+        ×
+      </button>
+
+
+      <div id="modalContent">
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
