@@ -474,8 +474,14 @@ const characters = [
 自身以外の味方玉鳳隊武将が生存している場合、敵武将の攻撃力を40%低下させる。
     `,
     lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
+    attackTeam: ["王賁",
+    "松琢",
+    "関常",
+    "楽毅"],
+    defenseTeam: ["王賁",
+    "松琢",
+    "関常",
+    "宮康"],
     image: "S__70819900_0.jpg"
   },
 
