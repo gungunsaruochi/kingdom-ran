@@ -726,7 +726,7 @@ function openCharacterModal(character) {
     </div>
 
 </section>
-  ;
+  `;
 
   modal.classList.add("show");
   document.body.style.overflow = "hidden";
