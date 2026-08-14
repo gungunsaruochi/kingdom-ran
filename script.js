@@ -141,7 +141,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "S__70819895_0.jpg"
   },
 
   {
@@ -186,7 +186,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "S__70819896_0.jpg"
   },
 
   {
