@@ -514,7 +514,10 @@ const characters = [
 生存している味方玉鳳隊武将の体力回復量が30%上昇して体力を30%回復する。
     `,
     lastRevival: "",
-    attackTeam: [],
+    attackTeam: ["王賁",
+    "松琢",
+    "関常",
+    "楽毅"],
     defenseTeam: [],
     image: "S__70819904_0.jpg",
     formationImage: "kanjo.jp.jpg"
@@ -530,7 +533,10 @@ const characters = [
 味方「王賁」、王翦軍武将の「錯乱」状態になる確率が50%低下する。
     `,
     lastRevival: "",
-    attackTeam: [],
+    attackTeam: ["王賁",
+    "松琢",
+    "関常",
+    "楽毅"],
     defenseTeam: [],
     image: "S__70819905_0.jpg",
     formationImage:"shotaku.jp.jpg"
