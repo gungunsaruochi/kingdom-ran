@@ -482,7 +482,7 @@ const characters = [
     "松琢",
     "関常",
     "宮康"],
-    image: "S__70819900_0.jpg"
+    image: "S__70819900_0.jpg",
     formationImage: "ouhon.jp.jpg",
   },
 
