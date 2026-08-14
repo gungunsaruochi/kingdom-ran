@@ -78,7 +78,7 @@ const characters = [
     lastRevival: "",
     attackTeam: ["昭王",],
     defenseTeam: ["昭王",],
-    image: ""
+    image: "",
     formationImage:"sho-o-jp.jpg"
   },
 
