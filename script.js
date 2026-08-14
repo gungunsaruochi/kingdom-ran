@@ -711,16 +711,22 @@ function openCharacterModal(character) {
 
     </section>
 
-    <section class="detail-section">
+   <section class="detail-section">
 
-      <h3>
-        おすすめ編成
-      </h3>
+    <h3>おすすめ編成</h3>
 
-      ${formationsHTML}
+    <div class="formation-category">
+        <h4>⚔️ 侵攻おすすめ</h4>
+        <p>未入力</p>
+    </div>
 
-    </section>
-  `;
+    <div class="formation-category">
+        <h4>🛡️ 駐屯おすすめ</h4>
+        <p>未入力</p>
+    </div>
+
+</section>
+  ;
 
   modal.classList.add("show");
   document.body.style.overflow = "hidden";
