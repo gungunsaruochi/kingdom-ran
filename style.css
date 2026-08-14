@@ -538,3 +538,29 @@ body {
   }
 
 }
+@media (max-width: 650px) {
+
+  .formation-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+  }
+
+  .formation-member {
+    min-width: 0;
+    border-radius: 8px;
+  }
+
+  .formation-member-image,
+  .formation-member-placeholder {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .formation-member-name {
+    font-size: 11px;
+    padding: 6px 2px;
+    word-break: break-word;
+  }
+
+}
