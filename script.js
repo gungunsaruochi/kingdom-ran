@@ -247,7 +247,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "S__70819894_0.jpg"
   },
 
   {
