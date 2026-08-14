@@ -188,7 +188,7 @@ const characters = [
     `,
     lastRevival: "",
     formations: [],
-    image: ""
+    image: "S__70819890.jpg"
   },
 
   {
