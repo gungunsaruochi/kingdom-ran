@@ -79,6 +79,7 @@ const characters = [
     attackTeam: [],
     defenseTeam: [],
     image: ""
+    formationImage:""
   },
 
   {
