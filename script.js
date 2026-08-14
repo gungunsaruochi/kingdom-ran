@@ -712,32 +712,34 @@ function createFormationHTML(team) {
             </div>
           `;
         }
+const formationSrc =
+  member.formationImage || member.image;
 
-        return `
-          <div class="formation-member">
+return `
+  <div class="formation-member">
 
-            ${
-              member.formationImage || member.image
-                ? `
-                  <img
-                    src="${member.formationImage || member.image}"
-                    alt="${member.name}"
-                    class="formation-member-image"
-                  >
-                `
-                : `
-                  <div class="formation-member-placeholder">
-                    画像なし
-                  </div>
-                `
-            }
-
-            <div class="formation-member-name">
-              ${member.name}
-            </div>
-
+    ${
+      formationSrc
+        ? `
+          <img
+            src="${formationSrc}"
+            alt="${member.name}"
+            class="formation-member-image"
+          >
+        `
+        : `
+          <div class="formation-member-placeholder">
+            画像なし
           </div>
-        `;
+        `
+    }
+
+    <div class="formation-member-name">
+      ${member.name}
+    </div>
+
+  </div>
+`;
 
       }).join("")}
 
