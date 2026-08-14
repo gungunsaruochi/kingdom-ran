@@ -76,8 +76,8 @@ const characters = [
 敵弓兵武将が生存している場合、自身と味方秦の六大将軍武将の「錯乱」「裏切り」状態になる確率が100%低下する。
     `,
     lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
+    attackTeam: ["昭王",],
+    defenseTeam: ["昭王",],
     image: ""
     formationImage:"sho-o-jp.jpg"
   },
