@@ -147,26 +147,6 @@ const characters = [
     image: "S__70819898_0.jpg"
   },
 
-  {
-    name: "呉慶",
-    country: "魏",
-    skill: "侵略への激情☆6",
-    description: `
-自身の騎兵武将に対する攻撃力と防御力が30%上昇する。
-味方盾兵武将の命中率が30%上昇する。
-味方魏国武将の「火傷」状態になる確率が100%低下する。
-駐屯時には、敵騎兵武将の攻撃力を40%低下させる。
-    `,
-    lastRevival: "",
-    attackTeam: [],
-    defenseTeam: ["乱美迫",
-                 "霊凰",
-                 "太呂慈",
-                "呉慶",],
-    image: "S__70819899_0.jpg",
-    formationImage: "oyaji.jpg"
-  },
-
  
 
   {
@@ -198,7 +178,25 @@ const characters = [
     defenseTeam: [],
     image: "S__70819896_0.jpg"
   },
-
+ {
+    name: "呉慶",
+    country: "魏",
+    skill: "侵略への激情☆6",
+    description: `
+自身の騎兵武将に対する攻撃力と防御力が30%上昇する。
+味方盾兵武将の命中率が30%上昇する。
+味方魏国武将の「火傷」状態になる確率が100%低下する。
+駐屯時には、敵騎兵武将の攻撃力を40%低下させる。
+    `,
+    lastRevival: "",
+    attackTeam: [],
+    defenseTeam: ["乱美迫",
+                 "霊凰",
+                 "太呂慈",
+                "呉慶",],
+    image: "S__70819899_0.jpg",
+    formationImage: "oyaji.jpg"
+  },
   {
     name: "万極",
     country: "趙",
