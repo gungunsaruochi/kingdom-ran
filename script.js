@@ -12,7 +12,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "hakuki.jpg"
   },
 
   {
@@ -61,7 +61,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "to-.jpg"
   },
 
   {
@@ -162,7 +162,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "kyo-en.jpg"
   },
 
   {
@@ -270,7 +270,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "karin.jpg"
   },
 
   {
@@ -286,7 +286,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "kanme-.jpg"
   },
 
   {
@@ -302,7 +302,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "rinbu.jpg"
   },
 
   {
@@ -382,7 +382,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "shunsinkun.jpg"
   },
 
   {
@@ -438,7 +438,7 @@ const characters = [
     "松琢",
     "関常",
     "宮康"],
-    image: "",
+    image: "kyu-ko-.jpg",
     formationImage: "kyuko.jp.jpg"
   },
 
@@ -455,7 +455,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "rien.jpg"
   },
 
   {
@@ -474,7 +474,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "ho-me-.jpg"
   },
 
   {
