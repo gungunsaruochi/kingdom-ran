@@ -545,7 +545,8 @@ const characters = [
     "宮康"],
     image: "S__70819905_0.jpg",
     formationImage:"shotaku.jp.jpg"
-  }
+  },
+  
  {
     name: "宮康",
     country: "秦",
