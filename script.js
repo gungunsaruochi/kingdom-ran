@@ -174,7 +174,7 @@ const characters = [
 敵全武将の廉頗軍武将に対する防御力を30%低下させる。
 味方廉頗軍武将の「裏切り」状態になる確率が60%低下する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-04-27",
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819898_0.jpg"
@@ -189,7 +189,7 @@ const characters = [
 自身と味方「廉頗」のクリティカル発生率が20%上昇する。
 味方「廉頗」が生存している場合、味方全武将の士気消費を30%軽減する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-04-27",
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819896_0.jpg"
@@ -391,7 +391,7 @@ const characters = [
 味方魏国武将の「火傷」状態になる確率が100%低下する。
 駐屯時には、敵騎兵武将の攻撃力を40%低下させる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-04-27",
     attackTeam: [],
     defenseTeam: ["乱美迫",
                  "霊凰",
@@ -492,7 +492,7 @@ const characters = [
 自身のクリティカル発生率が30%上昇する。
 自身以外の味方玉鳳隊武将が生存している場合、敵武将の攻撃力を40%低下させる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-04-27",
     attackTeam: ["王賁",
     "松琢",
     "関常",
