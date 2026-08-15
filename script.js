@@ -426,28 +426,6 @@ const characters = [
   },
 
   {
-    name: "宮康",
-    country: "秦",
-    skill: "堅牢堅固☆6",
-    description: `
-味方「王賁」、王翦軍武将の防御力が40%上昇する。
-味方「王賁」、王翦軍武将のクリティカルダメージが30%上昇する。
-駐屯時には、敵騎兵武将の攻撃力とクリティカルダメージを30%低下させる。
-    `,
-    lastRevival: "",
-    attackTeam: ["王賁",
-    "松琢",
-    "関常",
-    "宮康"],
-    defenseTeam: ["王賁",
-    "松琢",
-    "関常",
-    "宮康"],
-    image: "kyu-ko-.jpg",
-    formationImage: "kyuko.jp.jpg"
-  },
-
-  {
     name: "李園",
     country: "楚",
     skill: "強国構築☆6",
@@ -568,6 +546,27 @@ const characters = [
     image: "S__70819905_0.jpg",
     formationImage:"shotaku.jp.jpg"
   }
+ {
+    name: "宮康",
+    country: "秦",
+    skill: "堅牢堅固☆6",
+    description: `
+味方「王賁」、王翦軍武将の防御力が40%上昇する。
+味方「王賁」、王翦軍武将のクリティカルダメージが30%上昇する。
+駐屯時には、敵騎兵武将の攻撃力とクリティカルダメージを30%低下させる。
+    `,
+    lastRevival: "",
+    attackTeam: ["王賁",
+    "松琢",
+    "関常",
+    "宮康"],
+    defenseTeam: ["王賁",
+    "松琢",
+    "関常",
+    "宮康"],
+    image: "kyu-ko-.jpg",
+    formationImage: "kyuko.jp.jpg"
+  },
 
 ];
 
