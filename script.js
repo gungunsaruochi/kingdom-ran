@@ -476,6 +476,22 @@ const characters = [
     defenseTeam: [],
     image: "ho-me-.jpg"
   },
+ {
+    name: "太呂慈",
+    country: "魏",
+    skill: "覚悟の激撃☆6",
+    description: `
+自身の体力上限が100%上昇する。
+自身の防御力が30%上昇する。
+侵攻時には、味方魏国武将の攻撃力が20%上昇して攻撃力低下耐性が30%上昇する。
+駐屯時には、味方魏国武将の防御力貫通耐性が30%上昇し、敵騎兵武将のクリティカル発生率を40%低下させる。
+    `,
+    lastRevival: "",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "T-roji.jpg",
+    formationImage:""
+  },
 
   {
     name: "王賁",
@@ -501,23 +517,7 @@ const characters = [
     formationImage: "ouhon.jp.jpg",
   },
 
-  {
-    name: "太呂慈",
-    country: "魏",
-    skill: "覚悟の激撃☆6",
-    description: `
-自身の体力上限が100%上昇する。
-自身の防御力が30%上昇する。
-侵攻時には、味方魏国武将の攻撃力が20%上昇して攻撃力低下耐性が30%上昇する。
-駐屯時には、味方魏国武将の防御力貫通耐性が30%上昇し、敵騎兵武将のクリティカル発生率を40%低下させる。
-    `,
-    lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "T-roji.jpg",
-    formationImage:""
-  },
-
+ 
   {
     name: "関常",
     country: "秦",
