@@ -133,6 +133,7 @@ const characters = [
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819899_0.jpg"
+    formationImage: "oyaji.jpg"
   },
 
   {
@@ -351,6 +352,7 @@ const characters = [
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819901_0.jpg"
+    formationImage: "baubau.jpg"
   },
 
   {
@@ -401,7 +403,7 @@ const characters = [
     attackTeam: [],
     defenseTeam: [],
     image: "re-o-.jpg",
-    formationImage:""
+    formationImage:"sisho.jpg"
   },
 
   {
@@ -490,7 +492,7 @@ const characters = [
     attackTeam: [],
     defenseTeam: [],
     image: "T-roji.jpg",
-    formationImage:""
+    formationImage:"te-roji.jpg"
   },
 
   {
