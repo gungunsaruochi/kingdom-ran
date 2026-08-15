@@ -467,24 +467,6 @@ const characters = [
     image: "rien.jpg"
   },
 
-  {
-    name: "呉鳳明",
-    country: "魏",
-    skill: "世代の転換☆6",
-    description: `
-自身の体力上限が100%上昇する。
-味方魏国武将の体力上限が50%上昇する。
-味方騎兵武将の体力上限が50%上昇する。
-自身の攻撃力、防御力、命中率が15%上昇する。
-味方魏国武将の攻撃力、防御力、命中率が15%上昇する。
-味方騎兵武将の攻撃力、防御力、命中率が15%上昇する。
-自身が「見切り(40%)」状態になる。
-    `,
-    lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "ho-me-.jpg"
-  },
  {
     name: "太呂慈",
     country: "魏",
@@ -504,7 +486,24 @@ const characters = [
     image: "T-roji.jpg",
     formationImage:"te-roji.jpg"
   },
-
+ {
+    name: "呉鳳明",
+    country: "魏",
+    skill: "世代の転換☆6",
+    description: `
+自身の体力上限が100%上昇する。
+味方魏国武将の体力上限が50%上昇する。
+味方騎兵武将の体力上限が50%上昇する。
+自身の攻撃力、防御力、命中率が15%上昇する。
+味方魏国武将の攻撃力、防御力、命中率が15%上昇する。
+味方騎兵武将の攻撃力、防御力、命中率が15%上昇する。
+自身が「見切り(40%)」状態になる。
+    `,
+    lastRevival: "",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "ho-me-.jpg"
+  },
   {
     name: "王賁",
     country: "秦",
