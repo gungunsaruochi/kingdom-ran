@@ -1,20 +1,4 @@
 const characters = [
-
-  {
-    name: "白起",
-    country: "秦",
-    skill: "不敗☆6",
-    description: `
-自身の騎兵武将に対する攻撃力が20%上昇する。
-味方「昭王」、六大将軍武将の防御力と命中率が20%上昇する。
-駐屯時には、敵騎兵武将の攻撃力とクリティカルダメージを20%低下させ、味方兵器の攻撃力と防御力が50%上昇し、城門の体力残存時、城門の体力を50000回復する。
-    `,
-    lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "hakuki.jpg"
-  },
-
   {
     name: "雷土",
     country: "秦",
@@ -103,6 +87,22 @@ const characters = [
     image: "ouki.jpg",
     formationImage:"o-ki.jp.jpg"
   },
+   
+  {
+    name: "白起",
+    country: "秦",
+    skill: "不敗☆6",
+    description: `
+自身の騎兵武将に対する攻撃力が20%上昇する。
+味方「昭王」、六大将軍武将の防御力と命中率が20%上昇する。
+駐屯時には、敵騎兵武将の攻撃力とクリティカルダメージを20%低下させ、味方兵器の攻撃力と防御力が50%上昇し、城門の体力残存時、城門の体力を50000回復する。
+    `,
+    lastRevival: "",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "hakuki.jpg"
+  },
+  
  {
     name: "廉頗",
     country: "魏",
