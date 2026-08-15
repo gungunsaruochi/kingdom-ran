@@ -1,4 +1,21 @@
 const characters = [
+  
+  {
+    name: "楊端和",
+    country: "山の民",
+    skill: "山界ノ統一☆6",
+    description: `
+自身の趙国、魏国武将に対する攻撃力が20%上昇する。
+味方山の民武将の体力上限が100%上昇する。
+生存している味方山の民武将の士気が20%回復する。
+侵攻時には、味方山の民武将の「裏切り」「恐怖」状態になる確率が60%低下し、攻撃力が30%上昇する。
+    `,
+    lastRevival: "",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "S__70819903_0.jpg"
+  },
+
   {
     name: "雷土",
     country: "秦",
@@ -367,6 +384,22 @@ const characters = [
   },
 
   {
+    name: "成恢",
+    country: "韓",
+    skill: "毒の支配☆6",
+    description: `
+自身の防御力貫通と回避率が30%上昇する。
+自身の「毒」状態の付与確率が60%上昇する。
+敵全武将の「毒」によって受けるダメージを100%増加させる。
+侵攻時には、敵盾兵武将の攻撃力を20%低下させる。
+    `,
+    lastRevival: "",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "seikai.jpg"
+  },
+
+  {
     name: "乱美迫",
     country: "魏",
     skill: "暴威の鉞☆6",
@@ -385,22 +418,6 @@ const characters = [
                 "呉慶",],
     image: "S__70819901_0.jpg",
     formationImage: "baubau.jpg"
-  },
-
-  {
-    name: "楊端和",
-    country: "山の民",
-    skill: "山界ノ統一☆6",
-    description: `
-自身の趙国、魏国武将に対する攻撃力が20%上昇する。
-味方山の民武将の体力上限が100%上昇する。
-生存している味方山の民武将の士気が20%回復する。
-侵攻時には、味方山の民武将の「裏切り」「恐怖」状態になる確率が60%低下し、攻撃力が30%上昇する。
-    `,
-    lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "S__70819903_0.jpg"
   },
 
   {
@@ -423,22 +440,6 @@ const characters = [
                 "呉慶",],
     image: "re-o-.jpg",
     formationImage:"sisho.jpg"
-  },
-
-  {
-    name: "成恢",
-    country: "韓",
-    skill: "毒の支配☆6",
-    description: `
-自身の防御力貫通と回避率が30%上昇する。
-自身の「毒」状態の付与確率が60%上昇する。
-敵全武将の「毒」によって受けるダメージを100%増加させる。
-侵攻時には、敵盾兵武将の攻撃力を20%低下させる。
-    `,
-    lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "seikai.jpg"
   },
 
  {
