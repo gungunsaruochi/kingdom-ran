@@ -130,7 +130,7 @@ const characters = [
 味方秦国武将の騎兵武将に対する防御力が20%上昇し、防御力貫通耐性が40%上昇する。
 駐屯時には、敵騎兵武将の攻撃力を20%低下させ、クリティカルダメージを40%低下させる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-03",
     attackTeam: [],
     defenseTeam: [],
     image: "o-sen.jpg"
@@ -280,7 +280,7 @@ const characters = [
 味方楚国武将の防御力貫通が20%上昇する。
 敵全武将のクリティカル発生率を40%低下させる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-03",
     attackTeam: [],
     defenseTeam: [],
     image: "karin.jpg"
@@ -296,7 +296,7 @@ const characters = [
 味方汗明軍武将の攻撃力低下耐性が50%上昇する。
 自身以外の味方楚国武将が生存している場合、敵全武将の防御力を30%低下させる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-03",
     attackTeam: [],
     defenseTeam: [],
     image: "kanme-.jpg"
@@ -454,7 +454,7 @@ const characters = [
 侵攻時には、味方魏国武将の攻撃力が20%上昇して攻撃力低下耐性が30%上昇する。
 駐屯時には、味方魏国武将の防御力貫通耐性が30%上昇し、敵騎兵武将のクリティカル発生率を40%低下させる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-03",
     attackTeam: [],
     defenseTeam: ["乱美迫",
                  "霊凰",
@@ -515,7 +515,7 @@ const characters = [
 味方玉鳳隊武将の攻撃力低下耐性が40%上昇する。
 生存している味方玉鳳隊武将の体力回復量が30%上昇して体力を30%回復する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-05-17",
     attackTeam: ["王賁",
     "松琢",
     "関常",
@@ -537,7 +537,7 @@ const characters = [
 味方「王賁」、王翦軍武将の命中率が40%上昇する。
 味方「王賁」、王翦軍武将の「錯乱」状態になる確率が50%低下する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-12",
     attackTeam: ["王賁",
     "松琢",
     "関常",
@@ -559,7 +559,7 @@ const characters = [
 味方「王賁」、王翦軍武将のクリティカルダメージが30%上昇する。
 駐屯時には、敵騎兵武将の攻撃力とクリティカルダメージを30%低下させる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-06-17",
     attackTeam: ["王賁",
     "松琢",
     "関常",
