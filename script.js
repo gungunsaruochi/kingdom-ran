@@ -10,7 +10,7 @@ const characters = [
 生存している味方山の民武将の士気が20%回復する。
 侵攻時には、味方山の民武将の「裏切り」「恐怖」状態になる確率が60%低下し、攻撃力が30%上昇する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-06-10",
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819903_0.jpg"
@@ -42,7 +42,7 @@ const characters = [
 生存している味方「嬴政」、「嫪毐」の体力を20%回復する。
 敵盾兵武将のクリティカルダメージを30%低下させる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-05-24",
     attackTeam: [],
     defenseTeam: [],
     image: "taikou.jpg"
@@ -59,7 +59,7 @@ const characters = [
 敵楚国武将が生存している場合、敵全武将のクリティカルダメージを20%低下させる。
 敵韓国武将が生存している場合、敵全武将の体力回復量を20%低下させる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-05-24",
     attackTeam: [],
     defenseTeam: [],
     image: "to-.jpg"
@@ -76,7 +76,7 @@ const characters = [
 自身と生存している味方秦の六大将軍武将の士気を20%回復する。
 敵弓兵武将が生存している場合、自身と味方秦の六大将軍武将の「錯乱」「裏切り」状態になる確率が100%低下する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-06-10",
     attackTeam: ["昭王",
                 "王騎",],
     defenseTeam: ["昭王",
@@ -96,7 +96,7 @@ const characters = [
 味方騎兵武将の「毒」状態になる確率が60%低下する。
 敵弓兵武将のクリティカルダメージを30%低下させる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-05-24",
     attackTeam: ["昭王",
                  "王騎",],
     defenseTeam: ["昭王",
@@ -114,7 +114,7 @@ const characters = [
 味方「昭王」、六大将軍武将の防御力と命中率が20%上昇する。
 駐屯時には、敵騎兵武将の攻撃力とクリティカルダメージを20%低下させ、味方兵器の攻撃力と防御力が50%上昇し、城門の体力残存時、城門の体力を50000回復する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-05-24",
     attackTeam: [],
     defenseTeam: [],
     image: "hakuki.jpg"
@@ -312,7 +312,7 @@ const characters = [
 自身のクリティカル発生率とクリティカルダメージが30%上昇する。
 味方楚国武将の攻撃力低下耐性が60%上昇する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-06-10",
     attackTeam: [],
     defenseTeam: [],
     image: "rinbu.jpg"
@@ -328,7 +328,7 @@ const characters = [
 敵武将が生存している場合、生存している味方楚国武将の体力を30%回復する。
 敵武将が生存している場合、生存している味方楚国武将の士気を20%回復する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-06-10",
     attackTeam: [],
     defenseTeam: [],
     image: "shunsinkun.jpg"
@@ -358,7 +358,7 @@ const characters = [
 味方秦国、趙国、魏国、楚国、韓国、燕国武将の体力上限が100%上昇する。
 味方秦国、趙国、魏国、楚国、韓国、燕国武将の防御力が30%上昇する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-05-08",
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819902_0.jpg",
@@ -375,7 +375,7 @@ const characters = [
 敵全武将の「毒」によって受けるダメージを100%増加させる。
 侵攻時には、敵盾兵武将の攻撃力を20%低下させる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-05-08",
     attackTeam: [],
     defenseTeam: [],
     image: "seikai.jpg"
@@ -412,7 +412,7 @@ const characters = [
 味方魏火龍武将1名につき、敵騎兵武将の攻撃力を10%低下させる。
 駐屯時には、敵騎兵武将が生存している場合、自身の体力を20%回復する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-05-08",
     attackTeam: [],
     defenseTeam: ["乱美迫",
                  "霊凰",
@@ -434,7 +434,7 @@ const characters = [
 駐屯時には、敵盾兵武将の攻撃力を20%低下させる。
 生存している味方「呉鳳明」、「乱美迫」、魏火龍武将の士気を10%回復する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-05-08",
     attackTeam: [],
     defenseTeam: ["乱美迫",
                  "霊凰",
