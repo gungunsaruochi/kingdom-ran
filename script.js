@@ -131,7 +131,10 @@ const characters = [
     `,
     lastRevival: "",
     attackTeam: [],
-    defenseTeam: [],
+    defenseTeam: ["乱美迫"
+                 "霊凰"
+                 "太呂慈"
+                "呉慶"],
     image: "S__70819899_0.jpg"
     formationImage: "oyaji.jpg"
   },
