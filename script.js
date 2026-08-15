@@ -103,7 +103,35 @@ const characters = [
     image: "ouki.jpg",
     formationImage:"o-ki.jp.jpg"
   },
+ {
+    name: "廉頗",
+    country: "魏",
+    skill: "熱き抱擁☆6",
+    description: `
+味方廉頗軍武将の体力上限が100%上昇する。
+味方廉頗軍武将の攻撃力と防御力が30%上昇する。
+自身以外の味方廉頗軍武将が生存している場合、味方全武将に60%のガード効果(2回)を付与する。
+    `,
+    lastRevival: "",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "S__70819895_0.jpg"
+  },
 
+  {
+    name: "姜燕",
+    country: "魏",
+    skill: "正鵠を射る☆6",
+    description: `
+自身の盾兵武将に対する攻撃力と防御力が40%上昇する。
+自身と味方「廉頗」のクリティカルダメージが20%上昇する。
+味方「廉頗」が生存している場合、味方武将の体力を20%回復する。
+    `,
+    lastRevival: "",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "kyo-en.jpg"
+  },
   {
     name: "介子坊",
     country: "魏",
@@ -139,35 +167,7 @@ const characters = [
     formationImage: "oyaji.jpg"
   },
 
-  {
-    name: "廉頗",
-    country: "魏",
-    skill: "熱き抱擁☆6",
-    description: `
-味方廉頗軍武将の体力上限が100%上昇する。
-味方廉頗軍武将の攻撃力と防御力が30%上昇する。
-自身以外の味方廉頗軍武将が生存している場合、味方全武将に60%のガード効果(2回)を付与する。
-    `,
-    lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "S__70819895_0.jpg"
-  },
-
-  {
-    name: "姜燕",
-    country: "魏",
-    skill: "正鵠を射る☆6",
-    description: `
-自身の盾兵武将に対する攻撃力と防御力が40%上昇する。
-自身と味方「廉頗」のクリティカルダメージが20%上昇する。
-味方「廉頗」が生存している場合、味方武将の体力を20%回復する。
-    `,
-    lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "kyo-en.jpg"
-  },
+ 
 
   {
     name: "晋成常",
