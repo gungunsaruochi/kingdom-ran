@@ -147,23 +147,6 @@ const characters = [
     image: "S__70819898_0.jpg"
   },
 
- 
-
-  {
-    name: "晋成常",
-    country: "趙",
-    skill: "殿の意地☆6",
-    description: `
-味方趙国武将の防御力が20%上昇する。
-味方趙国武将の秦国武将に対する防御力が30%上昇する。
-敵秦国武将か山の民武将が生存している場合、自身の体力を20%回復する。
-    `,
-    lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "S__70819891.jpg"
-  },
-
   {
     name: "輪虎",
     country: "魏",
@@ -257,7 +240,20 @@ const characters = [
     defenseTeam: [],
     image: "S__70819894_0.jpg"
   },
-
+  {
+    name: "晋成常",
+    country: "趙",
+    skill: "殿の意地☆6",
+    description: `
+味方趙国武将の防御力が20%上昇する。
+味方趙国武将の秦国武将に対する防御力が30%上昇する。
+敵秦国武将か山の民武将が生存している場合、自身の体力を20%回復する。
+    `,
+    lastRevival: "",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "S__70819891.jpg"
+  },
   {
     name: "媧燐",
     country: "楚",
