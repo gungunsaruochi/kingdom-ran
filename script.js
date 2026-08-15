@@ -26,7 +26,7 @@ const characters = [
 侵攻時には、自身と味方桓騎軍武将の命中率が25%上昇する。
 自身に100%のガード効果(2回)を付与する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-19",
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819906.jpg"
@@ -145,7 +145,7 @@ const characters = [
 味方廉頗軍武将の攻撃力と防御力が30%上昇する。
 自身以外の味方廉頗軍武将が生存している場合、味方全武将に60%のガード効果(2回)を付与する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-19",
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819895_0.jpg"
@@ -160,7 +160,7 @@ const characters = [
 自身と味方「廉頗」のクリティカルダメージが20%上昇する。
 味方「廉頗」が生存している場合、味方武将の体力を20%回復する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-19",
     attackTeam: [],
     defenseTeam: [],
     image: "kyo-en.jpg"
@@ -204,7 +204,7 @@ const characters = [
 自身の攻撃力と防御力が30%上昇する。
 敵に秦国武将がいる場合、味方趙国武将の「恐怖」状態になる確率が100%低下し、敵全武将の防御力と回避率を30%低下させ、自身の攻撃力が40%上昇する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-19",
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819890.jpg"
@@ -220,7 +220,7 @@ const characters = [
 味方弓兵武将の「錯乱」状態の付与確率が30%上昇する。
 敵盾兵武将が生存している場合、味方弓兵武将に60%のガード効果(3回)を付与する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-19",
     attackTeam: [],
     defenseTeam: [],
     image: "keisha.jpg"
@@ -236,7 +236,7 @@ const characters = [
 敵歩兵武将と騎兵武将の回避率を25%低下させる。
 自身が「見切り(25%)」状態になる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-19",
     attackTeam: [],
     defenseTeam: [],
     image: "hutei.jpg"
@@ -250,7 +250,7 @@ const characters = [
 自身の攻撃力、クリティカル発生率、防御力貫通が30%上昇する。
 自身の命中率と回避率が20%上昇する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-19",
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819894_0.jpg"
@@ -264,7 +264,7 @@ const characters = [
 味方趙国武将の秦国武将に対する防御力が30%上昇する。
 敵秦国武将か山の民武将が生存している場合、自身の体力を20%回復する。
     `,
-    lastRevival: "",
+    lastRevival: "2026-07-19",
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819891.jpg"
