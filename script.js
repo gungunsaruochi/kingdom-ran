@@ -344,7 +344,7 @@ const characters = [
 敵秦国武将の回避率を40%低下させる。
 侵攻時には、敵騎兵武将の攻撃力を20%低下させる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-08-09",
     attackTeam: [],
     defenseTeam: [],
     image: "rien.jpg"
@@ -476,7 +476,7 @@ const characters = [
 味方騎兵武将の攻撃力、防御力、命中率が15%上昇する。
 自身が「見切り(40%)」状態になる。
     `,
-    lastRevival: "",
+    lastRevival: "2026-08-09",
     attackTeam: [],
     defenseTeam: [],
     image: "ho-me-.jpg"
