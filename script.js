@@ -103,6 +103,22 @@ const characters = [
     image: "hakuki.jpg"
   },
   
+  {
+    name: "王翦",
+    country: "秦",
+    skill: "絶対防御☆6",
+    description: `
+自身の体力が100%上昇する。
+自身の攻撃力と防御力が30%上昇する。
+味方秦国武将の騎兵武将に対する防御力が20%上昇し、防御力貫通耐性が40%上昇する。
+駐屯時には、敵騎兵武将の攻撃力を20%低下させ、クリティカルダメージを40%低下させる。
+    `,
+    lastRevival: "",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "o-sen.jpg"
+  },
+  
  {
     name: "廉頗",
     country: "魏",
@@ -301,22 +317,6 @@ const characters = [
     attackTeam: [],
     defenseTeam: [],
     image: "rinbu.jpg"
-  },
-
-  {
-    name: "王翦",
-    country: "秦",
-    skill: "絶対防御☆6",
-    description: `
-自身の体力が100%上昇する。
-自身の攻撃力と防御力が30%上昇する。
-味方秦国武将の騎兵武将に対する防御力が20%上昇し、防御力貫通耐性が40%上昇する。
-駐屯時には、敵騎兵武将の攻撃力を20%低下させ、クリティカルダメージを40%低下させる。
-    `,
-    lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "o-sen.jpg"
   },
 
   {
