@@ -44,7 +44,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "taikou.jpg"
   },
 
   {
@@ -80,7 +80,7 @@ const characters = [
                 "王騎",],
     defenseTeam: ["昭王",
                  "王騎",],
-    image: "",
+    image: "sho-o-.jpg",
     formationImage:"sho-o-jp.jpg"
   },
 
@@ -100,7 +100,7 @@ const characters = [
                  "王騎",],
     defenseTeam: ["昭王",
                   "王騎",],
-    image: "",
+    image: "ouki.jpg",
     formationImage:"o-ki.jp.jpg"
   },
 
@@ -223,7 +223,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "keisha.jpg"
   },
 
   {
@@ -239,7 +239,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "hutei.jpg"
   },
 
   {
@@ -318,7 +318,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "o-sen.jpg"
   },
 
   {
@@ -417,7 +417,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: ""
+    image: "seikai.jpg"
   },
 
   {
