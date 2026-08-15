@@ -1,7 +1,7 @@
 const characters = [
 
   {
-    name: "白起",
+    name: "白起"
     country: "秦",
     skill: "不敗☆6",
     description: `
