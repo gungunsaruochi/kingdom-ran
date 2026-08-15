@@ -135,7 +135,7 @@ const characters = [
                  "霊凰",
                  "太呂慈",
                 "呉慶",],
-    image: "S__70819899_0.jpg"
+    image: "S__70819899_0.jpg",
     formationImage: "oyaji.jpg"
   },
 
@@ -354,7 +354,7 @@ const characters = [
     lastRevival: "",
     attackTeam: [],
     defenseTeam: [],
-    image: "S__70819901_0.jpg"
+    image: "S__70819901_0.jpg",
     formationImage: "baubau.jpg"
   },
 
