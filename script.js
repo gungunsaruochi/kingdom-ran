@@ -320,6 +320,38 @@ const characters = [
   },
 
   {
+    name: "春申君",
+    country: "楚",
+    skill: "超大国の執政者☆6",
+    description: `
+味方楚国武将の体力上限が200%上昇する。
+味方楚国武将の最大士気が100%上昇する。
+敵武将が生存している場合、生存している味方楚国武将の体力を30%回復する。
+敵武将が生存している場合、生存している味方楚国武将の士気を20%回復する。
+    `,
+    lastRevival: "",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "shunsinkun.jpg"
+  },
+  
+  {
+    name: "李園",
+    country: "楚",
+    skill: "強国構築☆6",
+    description: `
+自身の体力上限が100%上昇する。
+自身の攻撃力と防御力が30%上昇する。
+敵秦国武将の回避率を40%低下させる。
+侵攻時には、敵騎兵武将の攻撃力を20%低下させる。
+    `,
+    lastRevival: "",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "rien.jpg"
+  },
+  
+  {
     name: "楽毅",
     country: "燕",
     skill: "天下を動かす傑物☆6",
@@ -372,22 +404,6 @@ const characters = [
   },
 
   {
-    name: "春申君",
-    country: "楚",
-    skill: "超大国の執政者☆6",
-    description: `
-味方楚国武将の体力上限が200%上昇する。
-味方楚国武将の最大士気が100%上昇する。
-敵武将が生存している場合、生存している味方楚国武将の体力を30%回復する。
-敵武将が生存している場合、生存している味方楚国武将の士気を20%回復する。
-    `,
-    lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "shunsinkun.jpg"
-  },
-
-  {
     name: "霊凰",
     country: "魏",
     skill: "冷酷な軍略☆6",
@@ -423,22 +439,6 @@ const characters = [
     attackTeam: [],
     defenseTeam: [],
     image: "seikai.jpg"
-  },
-
-  {
-    name: "李園",
-    country: "楚",
-    skill: "強国構築☆6",
-    description: `
-自身の体力上限が100%上昇する。
-自身の攻撃力と防御力が30%上昇する。
-敵秦国武将の回避率を40%低下させる。
-侵攻時には、敵騎兵武将の攻撃力を20%低下させる。
-    `,
-    lastRevival: "",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "rien.jpg"
   },
 
  {
