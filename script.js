@@ -13,7 +13,8 @@ const characters = [
     lastRevival: "2026-06-10",
     attackTeam: [],
     defenseTeam: [],
-    image: "S__70819903_0.jpg"
+    image: "S__70819903_0.jpg",
+    formationImage:""
   },
 
   {
@@ -29,7 +30,8 @@ const characters = [
     lastRevival: "2026-07-19",
     attackTeam: [],
     defenseTeam: [],
-    image: "S__70819906.jpg"
+    image: "S__70819906.jpg",
+    formationImage:""
   },
 
   {
@@ -45,7 +47,8 @@ const characters = [
     lastRevival: "2026-05-24",
     attackTeam: [],
     defenseTeam: [],
-    image: "taikou.jpg"
+    image: "taikou.jpg",
+    formationImage:""
   },
 
   {
@@ -62,7 +65,8 @@ const characters = [
     lastRevival: "2026-05-24",
     attackTeam: [],
     defenseTeam: [],
-    image: "to-.jpg"
+    image: "to-.jpg",
+    formationImage:""
   },
 
   {
