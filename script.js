@@ -11,9 +11,13 @@ const characters = [
 侵攻時には、味方山の民武将の「裏切り」「恐怖」状態になる確率が60%低下し、攻撃力が30%上昇する。
     `,
     lastRevival: "2026-06-10",
-    attackTeam: ["楊端和",
+    attackTeam1: ["楊端和",
     "トッジ",
     "フゥジ",
+    "ラマウジ"],
+    attackTeam2: ["楊端和",
+    "カタリ",
+    "キタリ",
     "ラマウジ"],
     defenseTeam: [],
     image: "S__70819903_0.jpg",
@@ -811,8 +815,11 @@ return `
 }
 
 function openCharacterModal(character) {
-  const attackTeamHTML =
-  createFormationHTML(character.attackTeam);
+  const attackTeam1HTML =
+  createFormationHTML(character.attackTeam1 || character.attackTeam);
+
+const attackTeam2HTML =
+  createFormationHTML(character.attackTeam2);
 
 const defenseTeamHTML =
   createFormationHTML(character.defenseTeam);
@@ -873,10 +880,19 @@ const defenseTeamHTML =
 
       <h3>おすすめ編成</h3>
 
-      <div class="formation-category">
-        <h4>⚔️ 侵攻</h4>
-        ${attackTeamHTML}
-      </div>
+     <div class="formation-category">
+  <h4>⚔️ 侵攻①</h4>
+  ${attackTeam1HTML}
+
+  ${
+    character.attackTeam2 && character.attackTeam2.length > 0
+      ? `
+        <h4>⚔️ 侵攻②</h4>
+        ${attackTeam2HTML}
+      `
+      : ""
+  }
+</div>
 
       <div class="formation-category">
         <h4>🛡️ 駐屯</h4>
