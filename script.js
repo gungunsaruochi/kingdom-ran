@@ -174,7 +174,7 @@ const characters = [
 敵全武将の廉頗軍武将に対する防御力を30%低下させる。
 味方廉頗軍武将の「裏切り」状態になる確率が60%低下する。
     `,
-    lastRevival: "2026-04-27",
+    lastRevival: "2026-08-16",
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819898_0.jpg"
@@ -189,7 +189,7 @@ const characters = [
 自身と味方「廉頗」のクリティカル発生率が20%上昇する。
 味方「廉頗」が生存している場合、味方全武将の士気消費を30%軽減する。
     `,
-    lastRevival: "2026-04-27",
+    lastRevival: "2026-08-16",
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819896_0.jpg"
@@ -358,7 +358,7 @@ const characters = [
 味方秦国、趙国、魏国、楚国、韓国、燕国武将の体力上限が100%上昇する。
 味方秦国、趙国、魏国、楚国、韓国、燕国武将の防御力が30%上昇する。
     `,
-    lastRevival: "2026-05-08",
+    lastRevival: "2026-08-16",
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819902_0.jpg",
@@ -375,7 +375,7 @@ const characters = [
 敵全武将の「毒」によって受けるダメージを100%増加させる。
 侵攻時には、敵盾兵武将の攻撃力を20%低下させる。
     `,
-    lastRevival: "2026-05-08",
+    lastRevival: "2026-08-16",
     attackTeam: [],
     defenseTeam: [],
     image: "seikai.jpg"
@@ -391,7 +391,7 @@ const characters = [
 味方魏国武将の「火傷」状態になる確率が100%低下する。
 駐屯時には、敵騎兵武将の攻撃力を40%低下させる。
     `,
-    lastRevival: "2026-04-27",
+    lastRevival: "2026-08-16",
     attackTeam: [],
     defenseTeam: ["乱美迫",
                  "霊凰",
@@ -412,7 +412,7 @@ const characters = [
 味方魏火龍武将1名につき、敵騎兵武将の攻撃力を10%低下させる。
 駐屯時には、敵騎兵武将が生存している場合、自身の体力を20%回復する。
     `,
-    lastRevival: "2026-05-08",
+    lastRevival: "2026-08-16",
     attackTeam: [],
     defenseTeam: ["乱美迫",
                  "霊凰",
@@ -434,7 +434,7 @@ const characters = [
 駐屯時には、敵盾兵武将の攻撃力を20%低下させる。
 生存している味方「呉鳳明」、「乱美迫」、魏火龍武将の士気を10%回復する。
     `,
-    lastRevival: "2026-05-08",
+    lastRevival: "2026-08-16",
     attackTeam: [],
     defenseTeam: ["乱美迫",
                  "霊凰",
@@ -492,7 +492,7 @@ const characters = [
 自身のクリティカル発生率が30%上昇する。
 自身以外の味方玉鳳隊武将が生存している場合、敵武将の攻撃力を40%低下させる。
     `,
-    lastRevival: "2026-04-27",
+    lastRevival: "2026-08-16",
     attackTeam: ["王賁",
     "松琢",
     "関常",
