@@ -1,6 +1,6 @@
 const formationOnlyCharacters = [
   {
-    name: "トッジ",
+    name: "トッヂ",
     image: "toji.webp"
   },
 ];
@@ -18,8 +18,8 @@ const characters = [
     `,
     lastRevival: "2026-06-10",
     attackTeam1: ["楊端和",
-    "トッジ",
-    "フゥジ",
+    "トッヂ",
+    "フゥヂ",
     "ラマウジ"],
     attackTeam2: ["楊端和",
     "カタリ",
