@@ -3,6 +3,26 @@ const formationOnlyCharacters = [
     name: "トッヂ",
     image: "toji.webp"
   },
+
+   {
+    name: "カタリ",
+    image: "katari.webp"
+  },
+
+   {
+    name: "キタリ",
+    image: "kitari.webp"
+  },
+
+   {
+    name: "フゥヂ",
+    image: "hu-ji.webp"
+  },
+
+   {
+    name: "ラマウジ",
+    image: "ramauji.webp"
+  },
 ];
 const characters = [
   
