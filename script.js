@@ -23,6 +23,11 @@ const formationOnlyCharacters = [
     name: "ラマウジ",
     image: "ramauji.webp"
   },
+
+   {
+    name: "桓騎",
+    image: "kanki.webp"
+  },
 ];
 const characters = [
   
@@ -61,8 +66,10 @@ const characters = [
 自身に100%のガード効果(2回)を付与する。
     `,
     lastRevival: "2026-07-19",
-    attackTeam: [],
-    defenseTeam: [],
+    attackTeam: ["雷土",
+                "桓騎",],
+    defenseTeam: ["雷土",
+                "桓騎",],
     image: "S__70819906.jpg",
     formationImage:"raido.webp"
   },
