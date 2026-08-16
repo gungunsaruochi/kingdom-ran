@@ -766,10 +766,15 @@ function createFormationHTML(team) {
       ${team.map(memberName => {
 
         const member =
-          characters.find(
-            character =>
-              character.name === memberName
-          );
+  characters.find(
+    character =>
+      character.name === memberName
+  )
+  ||
+  formationOnlyCharacters.find(
+    character =>
+      character.name === memberName
+  );
 
         if (!member) {
           return `
