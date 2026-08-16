@@ -11,10 +11,13 @@ const characters = [
 侵攻時には、味方山の民武将の「裏切り」「恐怖」状態になる確率が60%低下し、攻撃力が30%上昇する。
     `,
     lastRevival: "2026-06-10",
-    attackTeam: [],
+    attackTeam: ["楊端和",
+    "トッジ",
+    "フゥジ",
+    "ラマウジ"],
     defenseTeam: [],
     image: "S__70819903_0.jpg",
-    formationImage:""
+    formationImage:"yama0-.webp"
   },
 
   {
