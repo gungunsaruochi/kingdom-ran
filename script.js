@@ -1,7 +1,7 @@
 const characters = [
   
   {
-    name: "楊端和"
+    name: "楊端和",
     country: "山の民",
     skill: "山界ノ統一☆6",
     description: `
