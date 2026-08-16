@@ -166,8 +166,14 @@ const characters = [
 味方「廉頗」が生存している場合、味方武将の体力を20%回復する。
     `,
     lastRevival: "2026-07-19",
-    attackTeam: [],
-    defenseTeam: [],
+    attackTeam: ["輪虎",
+    "廉頗",
+    "介子坊",
+    "姜燕",],
+    defenseTeam: ["輪虎",
+    "廉頗",
+    "介子坊",
+    "姜燕",],
     image: "kyo-en.jpg",
     formationImage:"kyouen.webp"
   },
