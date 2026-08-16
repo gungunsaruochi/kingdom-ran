@@ -1,6 +1,6 @@
 const formationOnlyCharacters = [
   {
-    name: "トッヂ",,
+    name: "トッヂ",
     image: "toji.webp"
   },
 
