@@ -1,4 +1,8 @@
 const formationOnlyCharacters = [
+   {
+    name: "凱孟",
+    image: "gaimo-.jpg"
+  },
   {
     name: "トッヂ",
     image: "toji.webp"
@@ -586,7 +590,10 @@ const characters = [
 生存している味方「呉鳳明」、「乱美迫」、魏火龍武将の士気を10%回復する。
     `,
     lastRevival: "2026-08-16",
-    attackTeam: [],
+    attackTeam: ["乱美迫",
+                 "凱孟",
+                 "霊凰",
+                 "太呂慈",],
     defenseTeam: ["乱美迫",
                  "霊凰",
                  "太呂慈",
