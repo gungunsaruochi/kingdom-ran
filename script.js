@@ -180,81 +180,6 @@ const characters = [
     image: "o-sen.jpg",
     formationImage:"ousen.webp"
   },
-  
- {
-    name: "廉頗",
-    country: "魏",
-    skill: "熱き抱擁☆6",
-    description: `
-味方廉頗軍武将の体力上限が100%上昇する。
-味方廉頗軍武将の攻撃力と防御力が30%上昇する。
-自身以外の味方廉頗軍武将が生存している場合、味方全武将に60%のガード効果(2回)を付与する。
-    `,
-    lastRevival: "2026-07-19",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "S__70819895_0.jpg",
-   formationImage:"renpappa.webp"
-  },
-
-  {
-    name: "姜燕",
-    country: "魏",
-    skill: "正鵠を射る☆6",
-    description: `
-自身の盾兵武将に対する攻撃力と防御力が40%上昇する。
-自身と味方「廉頗」のクリティカルダメージが20%上昇する。
-味方「廉頗」が生存している場合、味方武将の体力を20%回復する。
-    `,
-    lastRevival: "2026-07-19",
-    attackTeam: ["輪虎",
-    "廉頗",
-    "介子坊",
-    "姜燕",],
-    defenseTeam: ["輪虎",
-    "廉頗",
-    "介子坊",
-    "姜燕",],
-    image: "kyo-en.jpg",
-    formationImage:"kyouen.webp"
-  },
-  {
-    name: "介子坊",
-    country: "魏",
-    skill: "大将軍への忠心☆6",
-    description: `
-自身以外の味方廉頗軍武将1名につき、味方廉頗軍武将の攻撃力と防御力が10%上昇する。
-敵全武将の廉頗軍武将に対する防御力を30%低下させる。
-味方廉頗軍武将の「裏切り」状態になる確率が60%低下する。
-    `,
-    lastRevival: "2026-08-16",
-    attackTeam: ["輪虎",
-    "廉頗",
-    "介子坊",
-    "姜燕",],
-    defenseTeam: ["輪虎",
-    "廉頗",
-    "介子坊",
-    "姜燕",],
-    image: "S__70819898_0.jpg",
-    formationImage:"kaisibo-.webp"
-  },
-
-  {
-    name:"輪虎",
-    country: "魏",
-    skill: "天の導き☆6",
-    description: `
-味方廉頗軍武将が「見切り(20%)」状態になる。
-自身と味方「廉頗」のクリティカル発生率が20%上昇する。
-味方「廉頗」が生存している場合、味方全武将の士気消費を30%軽減する。
-    `,
-    lastRevival: "2026-08-16",
-    attackTeam: [],
-    defenseTeam: [],
-    image: "S__70819896_0.jpg",
-    formationImage:"rinko.webp"
-  },
  
   {
     name: "万極",
@@ -441,7 +366,82 @@ const characters = [
     defenseTeam: [],
     image: "seikai.jpg"
   },
-  
+   
+ {
+    name: "廉頗",
+    country: "魏",
+    skill: "熱き抱擁☆6",
+    description: `
+味方廉頗軍武将の体力上限が100%上昇する。
+味方廉頗軍武将の攻撃力と防御力が30%上昇する。
+自身以外の味方廉頗軍武将が生存している場合、味方全武将に60%のガード効果(2回)を付与する。
+    `,
+    lastRevival: "2026-07-19",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "S__70819895_0.jpg",
+   formationImage:"renpappa.webp"
+  },
+
+  {
+    name: "姜燕",
+    country: "魏",
+    skill: "正鵠を射る☆6",
+    description: `
+自身の盾兵武将に対する攻撃力と防御力が40%上昇する。
+自身と味方「廉頗」のクリティカルダメージが20%上昇する。
+味方「廉頗」が生存している場合、味方武将の体力を20%回復する。
+    `,
+    lastRevival: "2026-07-19",
+    attackTeam: ["輪虎",
+    "廉頗",
+    "介子坊",
+    "姜燕",],
+    defenseTeam: ["輪虎",
+    "廉頗",
+    "介子坊",
+    "姜燕",],
+    image: "kyo-en.jpg",
+    formationImage:"kyouen.webp"
+  },
+  {
+    name: "介子坊",
+    country: "魏",
+    skill: "大将軍への忠心☆6",
+    description: `
+自身以外の味方廉頗軍武将1名につき、味方廉頗軍武将の攻撃力と防御力が10%上昇する。
+敵全武将の廉頗軍武将に対する防御力を30%低下させる。
+味方廉頗軍武将の「裏切り」状態になる確率が60%低下する。
+    `,
+    lastRevival: "2026-08-16",
+    attackTeam: ["輪虎",
+    "廉頗",
+    "介子坊",
+    "姜燕",],
+    defenseTeam: ["輪虎",
+    "廉頗",
+    "介子坊",
+    "姜燕",],
+    image: "S__70819898_0.jpg",
+    formationImage:"kaisibo-.webp"
+  },
+
+  {
+    name:"輪虎",
+    country: "魏",
+    skill: "天の導き☆6",
+    description: `
+味方廉頗軍武将が「見切り(20%)」状態になる。
+自身と味方「廉頗」のクリティカル発生率が20%上昇する。
+味方「廉頗」が生存している場合、味方全武将の士気消費を30%軽減する。
+    `,
+    lastRevival: "2026-08-16",
+    attackTeam: [],
+    defenseTeam: [],
+    image: "S__70819896_0.jpg",
+    formationImage:"rinko.webp"
+  },
+ 
 {
     name: "呉慶",
     country: "魏",
