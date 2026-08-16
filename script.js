@@ -152,7 +152,8 @@ const characters = [
     lastRevival: "2026-07-19",
     attackTeam: [],
     defenseTeam: [],
-    image: "S__70819895_0.jpg"
+    image: "S__70819895_0.jpg",
+   formationImage:"renpappa.webp"
   },
 
   {
@@ -167,7 +168,8 @@ const characters = [
     lastRevival: "2026-07-19",
     attackTeam: [],
     defenseTeam: [],
-    image: "kyo-en.jpg"
+    image: "kyo-en.jpg",
+    formationImage:"kyouen.webp"
   },
   {
     name: "介子坊",
@@ -181,7 +183,8 @@ const characters = [
     lastRevival: "2026-08-16",
     attackTeam: [],
     defenseTeam: [],
-    image: "S__70819898_0.jpg"
+    image: "S__70819898_0.jpg",
+    formationImage:"kaisibo-.webp"
   },
 
   {
@@ -196,7 +199,8 @@ const characters = [
     lastRevival: "2026-08-16",
     attackTeam: [],
     defenseTeam: [],
-    image: "S__70819896_0.jpg"
+    image: "S__70819896_0.jpg",
+    formationImage:"rinko.webp"
   },
  
   {
