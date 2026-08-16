@@ -665,7 +665,8 @@ function renderCharacters() {
       ${character.country}
       ${character.skill}
       ${character.description}
-      ${character.attackTeam.join(" ")}
+     ${(character.attackTeam1 || character.attackTeam || []).join(" ")}
+　　 ${(character.attackTeam2 || []).join(" ")}
       ${character.defenseTeam.join(" ")}
     `.toLowerCase();
 
