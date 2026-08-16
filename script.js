@@ -55,6 +55,96 @@ const characters = [
     formationImage:"yama0-.webp"
   },
 
+   {
+    name: "王賁",
+    country: "秦",
+    skill: "共にある☆6",
+    description: `
+味方玉鳳隊武将の体力上限が100%上昇する。
+味方玉鳳隊武将の攻撃力と防御力が30%上昇する。
+味方玉鳳隊武将に100%のガード効果(1回)を付与する。
+自身のクリティカル発生率が30%上昇する。
+自身以外の味方玉鳳隊武将が生存している場合、敵武将の攻撃力を40%低下させる。
+    `,
+    lastRevival: "2026-08-16",
+    attackTeam: ["王賁",
+    "松琢",
+    "関常",
+    "楽毅"],
+    defenseTeam: ["王賁",
+    "松琢",
+    "関常",
+    "宮康"],
+    image: "S__70819900_0.jpg",
+    formationImage: "ouhon.jp.jpg",
+  },
+
+ 
+  {
+    name: "関常",
+    country: "秦",
+    skill: "侍従懸命☆6",
+    description: `
+味方玉鳳隊武将の回避率が30%上昇する。
+味方玉鳳隊武将の攻撃力低下耐性が40%上昇する。
+生存している味方玉鳳隊武将の体力回復量が30%上昇して体力を30%回復する。
+    `,
+    lastRevival: "2026-05-17",
+    attackTeam: ["王賁",
+    "松琢",
+    "関常",
+    "楽毅"],
+    defenseTeam: ["王賁",
+    "松琢",
+    "関常",
+    "宮康"],
+    image: "S__70819904_0.jpg",
+    formationImage: "kanjo.jp.jpg"
+  },
+
+  {
+    name: "松琢",
+    country: "秦",
+    skill: "継ぐ忠心☆6",
+    description: `
+味方「王賁」、王翦軍武将の騎兵武将に対する攻撃力が20%上昇する。
+味方「王賁」、王翦軍武将の命中率が40%上昇する。
+味方「王賁」、王翦軍武将の「錯乱」状態になる確率が50%低下する。
+    `,
+    lastRevival: "2026-07-12",
+    attackTeam: ["王賁",
+    "松琢",
+    "関常",
+    "楽毅"],
+    defenseTeam: ["王賁",
+    "松琢",
+    "関常",
+    "宮康"],
+    image: "S__70819905_0.jpg",
+    formationImage:"shotaku.jp.jpg"
+  },
+  
+ {
+    name: "宮康",
+    country: "秦",
+    skill: "堅牢堅固☆6",
+    description: `
+味方「王賁」、王翦軍武将の防御力が40%上昇する。
+味方「王賁」、王翦軍武将のクリティカルダメージが30%上昇する。
+駐屯時には、敵騎兵武将の攻撃力とクリティカルダメージを30%低下させる。
+    `,
+    lastRevival: "2026-06-17",
+    attackTeam: ["王賁",
+    "松琢",
+    "関常",
+    "宮康"],
+    defenseTeam: ["王賁",
+    "松琢",
+    "関常",
+    "宮康"],
+    image: "kyu-ko-.jpg",
+    formationImage: "kyuko.jp.jpg"
+  },
   {
     name: "雷土",
     country: "秦",
@@ -542,97 +632,7 @@ const characters = [
     defenseTeam: [],
     image: "ho-me-.jpg"
   },
-  {
-    name: "王賁",
-    country: "秦",
-    skill: "共にある☆6",
-    description: `
-味方玉鳳隊武将の体力上限が100%上昇する。
-味方玉鳳隊武将の攻撃力と防御力が30%上昇する。
-味方玉鳳隊武将に100%のガード効果(1回)を付与する。
-自身のクリティカル発生率が30%上昇する。
-自身以外の味方玉鳳隊武将が生存している場合、敵武将の攻撃力を40%低下させる。
-    `,
-    lastRevival: "2026-08-16",
-    attackTeam: ["王賁",
-    "松琢",
-    "関常",
-    "楽毅"],
-    defenseTeam: ["王賁",
-    "松琢",
-    "関常",
-    "宮康"],
-    image: "S__70819900_0.jpg",
-    formationImage: "ouhon.jp.jpg",
-  },
-
  
-  {
-    name: "関常",
-    country: "秦",
-    skill: "侍従懸命☆6",
-    description: `
-味方玉鳳隊武将の回避率が30%上昇する。
-味方玉鳳隊武将の攻撃力低下耐性が40%上昇する。
-生存している味方玉鳳隊武将の体力回復量が30%上昇して体力を30%回復する。
-    `,
-    lastRevival: "2026-05-17",
-    attackTeam: ["王賁",
-    "松琢",
-    "関常",
-    "楽毅"],
-    defenseTeam: ["王賁",
-    "松琢",
-    "関常",
-    "宮康"],
-    image: "S__70819904_0.jpg",
-    formationImage: "kanjo.jp.jpg"
-  },
-
-  {
-    name: "松琢",
-    country: "秦",
-    skill: "継ぐ忠心☆6",
-    description: `
-味方「王賁」、王翦軍武将の騎兵武将に対する攻撃力が20%上昇する。
-味方「王賁」、王翦軍武将の命中率が40%上昇する。
-味方「王賁」、王翦軍武将の「錯乱」状態になる確率が50%低下する。
-    `,
-    lastRevival: "2026-07-12",
-    attackTeam: ["王賁",
-    "松琢",
-    "関常",
-    "楽毅"],
-    defenseTeam: ["王賁",
-    "松琢",
-    "関常",
-    "宮康"],
-    image: "S__70819905_0.jpg",
-    formationImage:"shotaku.jp.jpg"
-  },
-  
- {
-    name: "宮康",
-    country: "秦",
-    skill: "堅牢堅固☆6",
-    description: `
-味方「王賁」、王翦軍武将の防御力が40%上昇する。
-味方「王賁」、王翦軍武将のクリティカルダメージが30%上昇する。
-駐屯時には、敵騎兵武将の攻撃力とクリティカルダメージを30%低下させる。
-    `,
-    lastRevival: "2026-06-17",
-    attackTeam: ["王賁",
-    "松琢",
-    "関常",
-    "宮康"],
-    defenseTeam: ["王賁",
-    "松琢",
-    "関常",
-    "宮康"],
-    image: "kyu-ko-.jpg",
-    formationImage: "kyuko.jp.jpg"
-  },
-
 ];
 
 let selectedCountry = "all";
