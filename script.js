@@ -177,7 +177,7 @@ const characters = [
     lastRevival: "2026-07-03",
     attackTeam: [],
     defenseTeam: [],
-    image: "o-sen.jpg"
+    image: "o-sen.jpg",
     formationImage:"ousen.webp"
   },
   
