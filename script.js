@@ -1,3 +1,9 @@
+const formationOnlyCharacters = [
+  {
+    name: "トッジ",
+    image: "toji.webp"
+  }
+];
 const characters = [
   
   {
