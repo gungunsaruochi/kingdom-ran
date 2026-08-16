@@ -64,7 +64,7 @@ const characters = [
     attackTeam: [],
     defenseTeam: [],
     image: "S__70819906.jpg",
-    formationImage:""
+    formationImage:"raido.webp"
   },
 
   {
@@ -81,7 +81,7 @@ const characters = [
     attackTeam: [],
     defenseTeam: [],
     image: "taikou.jpg",
-    formationImage:""
+    formationImage:"taiko-.webp"
   },
 
   {
@@ -171,6 +171,7 @@ const characters = [
     attackTeam: [],
     defenseTeam: [],
     image: "o-sen.jpg"
+    formationImage:"ousen.webp"
   },
   
  {
