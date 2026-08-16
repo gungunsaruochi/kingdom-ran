@@ -184,11 +184,11 @@ const characters = [
     attackTeam: ["輪虎",
     "廉頗",
     "介子坊",
-    "姜燕"],
+    "姜燕",],
     defenseTeam: ["輪虎",
     "廉頗",
     "介子坊",
-    "姜燕"],
+    "姜燕",],
     image: "S__70819898_0.jpg",
     formationImage:"kaisibo-.webp"
   },
