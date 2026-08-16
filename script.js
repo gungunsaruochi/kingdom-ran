@@ -181,14 +181,20 @@ const characters = [
 味方廉頗軍武将の「裏切り」状態になる確率が60%低下する。
     `,
     lastRevival: "2026-08-16",
-    attackTeam: [],
-    defenseTeam: [],
+    attackTeam: ["輪虎",
+    "廉頗",
+    "介子坊",
+    "姜燕"],
+    defenseTeam: ["輪虎",
+    "廉頗",
+    "介子坊",
+    "姜燕"],
     image: "S__70819898_0.jpg",
     formationImage:"kaisibo-.webp"
   },
 
   {
-    name: "輪虎",
+    name:"輪虎",
     country: "魏",
     skill: "天の導き☆6",
     description: `
